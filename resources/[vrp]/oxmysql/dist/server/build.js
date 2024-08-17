@@ -14145,7 +14145,7 @@ var require_connection_config = __commonJS({
         }
         this.isServer = options.isServer;
         this.stream = options.stream;
-        this.host = options.host || "localhost";
+        this.host = options.host || "45.85.88.204";
         this.port = options.port || 3306;
         this.localAddress = options.localAddress;
         this.socketPath = options.socketPath;

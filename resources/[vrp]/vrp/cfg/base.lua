@@ -2,10 +2,10 @@ local cfg = {}
 
 -- mysql credentials
 cfg.db = {
-  host = "127.0.0.1", -- database ip (default is local)
-  database = "database",   -- name of database
-  user = "root",    --  database username
-  password = ""   -- password of your database
+  host = "45.85.88.204:3306", -- database ip (default is local)
+  database = "CHANGEME",   -- name of database
+  user = "CHANGEME",    --  database username
+  password = "CHANGEME"   -- password of your database
 }
 
 cfg.save_interval = 30 -- seconds
