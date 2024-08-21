@@ -1,11 +1,14 @@
 local cfg = {}
+local db_name = GetConvar("database_name", "")
+local db_user = GetConvar("database_user", "")
+local db_pass = GetConvar("database_password", "")
 
 -- mysql credentials
 cfg.db = {
   host = "45.85.88.204:3306", -- database ip (default is local)
-  database = "CHANGEME",   -- name of database
-  user = "CHANGEME",    --  database username
-  password = "CHANGEME"   -- password of your database
+  database = db_name,   -- name of database
+  user = db_user,  --  database username
+  password = db_pass   -- password of your database
 }
 
 cfg.save_interval = 30 -- seconds
