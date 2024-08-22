@@ -11,18 +11,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `database`
---
-CREATE DATABASE IF NOT EXISTS `database` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `database`;
-
 -- --------------------------------------------------------
 
 --
@@ -214,7 +202,7 @@ CREATE TABLE IF NOT EXISTS `phone_tweets` (
   `message` text DEFAULT NULL,
   `date` datetime DEFAULT current_timestamp(),
   `url` text DEFAULT NULL,
-  `picture` text DEFAULT './img/default.png',
+  `picture` text,
   `tweetId` varchar(25) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `citizenid` (`citizenid`)
