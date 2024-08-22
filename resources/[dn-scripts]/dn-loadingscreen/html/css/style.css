@@ -1,0 +1,649 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(Montserrat-Regular.ttf);
+}
+
+.mediaViewInfo {
+	--web-view-name: ssios;
+	--web-view-id: ssios;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+    --web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ssios;
+}
+body {
+
+	/* background-image: url('https://cdn.discordapp.com/attachments/888607789545566248/895854299425435658/loadingscreen_background-min.png');
+	background-size: 100%;
+	background-color: #0e0e0e; */
+	background-color: #0e0e0e;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	overflow: hidden;
+}
+#ssios {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: visible;
+	--web-view-name: ssios;
+	--web-view-id: ssios;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-center-horizontally: true;
+    --web-center-vertically: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	user-select: none;
+}
+#lefter {
+	position: absolute;
+	width: 3485.885px;
+	height: 4664.216px;
+	left: -1963.664px;
+	top: -2044.936px;
+	overflow: visible;
+}
+#lefterbg {
+	fill: rgba(14,14,14,0.6);
+}
+.lefterbg {
+	filter: drop-shadow(0px 113px 41px rgba(0, 0, 0, 1));
+	width: 1924px;
+	height: 4249px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(1963.664px, 2044.936px) matrix(1,0,0,1,-1182.7214,-1837.3281) rotate(24deg);
+	transform-origin: center;
+}
+#leftheadtop {
+	position: absolute;
+	width: 525px;
+	height: 190px;
+	left: 1991.664px;
+	top: 2072.936px;
+	overflow: visible;
+}
+#pointless-logo {
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#headspan {
+	left: 190px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 336px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 58px;
+	color: rgba(210,210,210,1);
+	letter-spacing: 2.25px;
+}
+#lefterspans {
+	position: absolute;
+	width: 587px;
+	height: 490px;
+	left: 2007.664px;
+	top: 2358.936px;
+	overflow: visible;
+}
+#serverinfosdiv {
+	position: absolute;
+	width: 587px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#serverinfosheader {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 416px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgb(255,0,0);
+}
+#serverinfosbody {
+	left: 0px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 588px;
+	height: 277px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(210,210,210,1);
+}
+#changelogdiv {
+	position: absolute;
+	width: 417px;
+	height: 175px;
+	left: 0px;
+	top: 315px;
+	overflow: visible;
+}
+#changelogheader {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 209px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgb(255,0,0);
+}
+#changelogbody {
+	left: 0px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 418px;
+	height: 137px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(210,210,210,1);
+}
+#loadingplace {
+    position: absolute;
+    width: 267px;
+    height: 200px;
+    left: 2082.664px;
+    top: 2940.936px;
+    overflow: visible;
+}
+#loadingplaceplaceholder {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loadingplaceplaceholder {
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+}
+#footer {
+	position: absolute;
+	width: 437.775px;
+	height: 37.329px;
+	left: 741.113px;
+	top: 1032px;
+	overflow: visible;
+}
+#discorddiv {
+	position: absolute;
+	width: 279.775px;
+	height: 34.517px;
+	left: 0px;
+	top: 1px;
+	overflow: visible;
+}
+#discordsvg {
+	fill: rgb(255,0,0);
+}
+.discordsvg {
+	overflow: visible;
+	position: absolute;
+	width: 46.807px;
+	height: 34.517px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	
+	filter: drop-shadow(3px 6px 6px black);
+}
+#discordlink {
+	left: 56.775px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 224px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(210,210,210,1);
+	filter: drop-shadow(3px 6px 6px black);
+}
+#teamspeakdiv {
+	position: absolute;
+	width: 136.863px;
+	height: 37.329px;
+	left: 300.912px;
+	top: 0px;
+	overflow: visible;
+	
+}
+#teamspeaksvg {
+	position: absolute;
+	width: 38.113px;
+	height: 37.329px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	filter: drop-shadow(3px 6px 6px black);
+}
+#teamspeaksvg2 {
+	fill: rgb(255,0,0);
+}
+.teamspeaksvg2 {
+	overflow: visible;
+	position: absolute;
+	width: 38.113px;
+	height: 37.329px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#teamspeaksvg3 {
+	fill: rgb(255,0,0);
+}
+.teamspeaksvg3 {
+	overflow: visible;
+	position: absolute;
+	width: 20.362px;
+	height: 28.879px;
+	left: 11.947px;
+	top: 2.541px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#teamspeaksvg4 {
+	fill: rgb(255,0,0);
+}
+.teamspeaksvg4 {
+	overflow: visible;
+	position: absolute;
+	width: 9.718px;
+	height: 28.589px;
+	left: 9.808px;
+	top: 3.106px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#teamspeaklink {
+	left: 48.863px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(210,210,210,1);
+	filter: drop-shadow(3px 6px 6px black);
+}
+
+.centered{
+	width:150px;
+	height:150px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.blob-1,.blob-2{
+	width:50px;
+	height:50px;
+	position:absolute;
+	background:#d2d2d2;
+	border-radius:50%;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+}
+.blob-1{
+	left:20%;
+	animation:osc-l 2.5s ease infinite;
+}
+.blob-2{
+	left:80%;
+	animation:osc-r 2.5s ease infinite;
+	background:rgb(255,0,0);
+}
+@keyframes osc-l{
+	0%{left:20%;}
+	50%{left:50%;}
+	100%{left:20%;}
+}
+@keyframes osc-r{
+	0%{left:80%;}
+	50%{left:50%;}
+	100%{left:80%;}
+}
+
+#loadingspan {
+	color: #d2d2d2;
+    font-family: Montserrat;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 39px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.267));
+}
+
+#videoBG {
+	/* margin-left: -30px; */
+	width: 100%;
+	height: 100%;
+    position:fixed;
+    z-index: -1;
+	background-size: cover;
+}
+
+#leftamk {
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-image: linear-gradient(to left, #0e0e0e00, #0e0e0e);
+}
+
+#rightamk {
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	top: 0px;
+	right: -1px;
+	background-image: linear-gradient(to right, #0e0e0e00, #0e0e0e);
+}
+
+#lifev_10 {
+	opacity: 0.251;
+	fill: rgba(0,0,0,1);
+}
+.lifev_10 {
+	position: absolute;
+	overflow: visible;
+	width: 361px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#lifev_2 {
+	opacity: 0.278;
+	fill: rgba(19,19,19,1);
+}
+.lifev_2 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 36px;
+	top: 17px;
+}
+#layout_1 {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 48px;
+	top: 29px;
+	overflow: visible;
+}
+#FORUMLIFE-VEU {
+	left: 158.717px;
+	top: 34.349px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	line-height: 20.833330154418945px;
+	margin-top: -1.0416650772094727px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.75px;
+	color: rgba(255,255,255,1);
+}
+#FORUM {
+	left: 107.873px;
+	top: 38.769px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	line-height: 14.00391960144043px;
+	margin-top: -1.7936248779296875px;
+	text-align: center;
+	font-style: normal;
+	font-weight: Bold;
+	font-size: 10.416669845581055px;
+	color: #bc17fe;
+}
+#Gruppe_2_p {
+	position: absolute;
+	width: 361px;
+	height: 84px;
+	left: 700px;
+	top: 950px;
+	overflow: visible;
+}
+#lifev_10_q {
+	opacity: 0.251;
+	fill: rgba(0,0,0,1);
+}
+.lifev_10_q {
+	position: absolute;
+	overflow: visible;
+	width: 361px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#lifev_2_r {
+	opacity: 0.278;
+	fill: rgba(19,19,19,1);
+}
+.lifev_2_r {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 36px;
+	top: 17px;
+}
+#layout_1_s {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 48px;
+	top: 29px;
+	overflow: visible;
+}
+#DISCORDGGLIFEV {
+	left: 100.717px;
+	top: 36.349px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	line-height: 20.833330154418945px;
+	margin-top: -2.0833301544189453px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16.666669845581055px;
+	color: rgba(255,255,255,1);
+}
+#DISCORD {
+	left: 98.873px;
+	top: 38.769px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 14.00391960144043px;
+	margin-top: -1.7936248779296875px;
+	text-align: center;
+	font-style: normal;
+	font-weight: Bold;
+	font-size: 10.416669845581055px;
+	color: #bc17fe;
+}
+#Gruppe_2_v {
+	position: absolute;
+	width: 361px;
+	height: 84px;
+	left: 1200px;
+	top: 950px;
+	overflow: visible;
+}
+#lifev_10_w {
+	opacity: 0.251;
+	fill: rgba(0,0,0,1);
+}
+.lifev_10_w {
+	position: absolute;
+	overflow: visible;
+	width: 361px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#lifev_2_x {
+	opacity: 0.278;
+	fill: rgba(19,19,19,1);
+}
+.lifev_2_x {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 36px;
+	top: 17px;
+}
+#layout_1_y {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 48px;
+	top: 29px;
+	overflow: visible;
+}
+
+#Gruppe_7 {
+	position: absolute;
+	width: 614px;
+	height: 207px;
+	left: 669px;
+	top: 437px;
+	overflow: visible;
+}
+#Gruppe_6 {
+	position: absolute;
+	width: 614px;
+	height: 207px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#lifev_10_ {
+	opacity: 0.502;
+	fill: rgba(0,0,0,1);
+}
+.lifev_10_ {
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	height: 207px;
+	left: 0px;
+	top: 0px;
+}
+#Gruppe_5 {
+	position: absolute;
+	width: 87.5px;
+	height: 87.5px;
+	left: 78.75px;
+	top: 58.9px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	position: absolute;
+	width: 87.5px;
+	height: 87.5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Ellipse_1_ {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(19,19,19,1);
+	stroke-width: 8.333333015441895px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1_ {
+	position: absolute;
+	overflow: visible;
+	width: 87.5px;
+	height: 87.5px;
+	left: 0px;
+	top: 0px;
+}
+#Clip {
+	position: absolute;
+	width: 87.5px;
+	height: 87.5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#lifev_11 {
+	fill: rgba(19,19,19,1);
+}
+.lifev_11 {
+	position: absolute;
+	overflow: visible;
+	width: 4px;
+	height: 151px;
+	left: 252px;
+	top: 28px;
+}
