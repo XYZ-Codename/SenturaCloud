@@ -8,8 +8,6 @@ files {
     'css/style.css',
     'fonts/fontawesome-webfont.woff2',
     'fonts/ionicons.ttf',
-    'img/discord.png',
-    'img/logo.png',
     'img/cursor.png',
     'img/overlay.svg',
     'js/bootstrap.min.js',

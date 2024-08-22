@@ -4,7 +4,6 @@ dependency 'vrp'
 
 files {
 	'html/ui.html',
-	'html/logo.png',
 	'html/dmv.png',
 	'html/cursor.png',
 	'html/styles.css',

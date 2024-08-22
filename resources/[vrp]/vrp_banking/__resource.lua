@@ -11,7 +11,6 @@ files {
 	'html/pricedown.ttf',
 	'html/bank-icon.png',
 	'html/logo.png',
-	'html/cursor.png',
 	'html/styles.css',
 	'html/scripts.js',
 	'html/debounce.min.js'
